@@ -5,23 +5,23 @@
 			<color id="0" r="7" g="54" b="66"/>
 			<color id="1" r="38" g="139" b="210"/>
 			<color id="2" r="133" g="153" b="0"/>
-			<color id="3" r="42" g="161" b="152"/>
-			<color id="4" r="220" g="50" b="47"/>
+			<color id="3" r="52" g="201" b="190"/>
+			<color id="4" r="160" g="30" b="27"/>
 			<color id="5" r="211" g="54" b="130"/>
 			<color id="6" r="181" g="137" b="0"/>
 			<color id="7" r="238" g="232" b="213"/>
-			<color id="8" r="0" g="43" b="54"/>
-			<color id="9" r="131" g="148" b="150"/>
-			<color id="10" r="88" g="110" b="117"/>
-			<color id="11" r="147" g="161" b="161"/>
-			<color id="12" r="203" g="75" b="22"/>
-			<color id="13" r="108" g="113" b="196"/>
-			<color id="14" r="101" g="123" b="131"/>
+			<color id="8" r="0" g="162" b="202"/>
+			<color id="9" r="78" g="100" b="203"/>
+			<color id="10" r="61" g="220" b="85"/>
+			<color id="11" r="5" g="152" b="137"/>
+			<color id="12" r="242" g="89" b="72"/>
+			<color id="13" r="228" g="126" b="218"/>
+			<color id="14" r="148" g="145" b="31"/>
 			<color id="15" r="253" g="246" b="227"/>
 		</colors>
 	</console>
 	<appearance>
-		<font name="Courier New" size="10" bold="0" italic="0" smoothing="0">
+		<font name="Lucida Console" size="10" bold="0" italic="0" smoothing="0">
 			<color use="0" r="0" g="0" b="0"/>
 		</font>
 		<window title="Console" icon="" use_tab_icon="1" use_console_title="0" show_cmd="1" show_cmd_tabs="1" use_tab_title="1" trim_tab_titles="20" trim_tab_titles_right="0"/>
@@ -30,7 +30,7 @@
 			<selection_color r="255" g="255" b="255"/>
 		</styles>
 		<position x="-1" y="-1" dock="-1" snap="0" z_order="0" save_position="0"/>
-		<transparency type="0" active_alpha="255" inactive_alpha="255" r="0" g="0" b="0"/>
+		<transparency type="0" active_alpha="236" inactive_alpha="236" r="0" g="0" b="0"/>
 	</appearance>
 	<behavior>
 		<copy_paste copy_on_select="1" clear_on_copy="1" no_wrap="1" trim_spaces="1" copy_newline_char="0" sensitive_copy="1"/>
@@ -93,9 +93,9 @@
 		<tab title="cmd" use_default_icon="0">
 			<console shell="%comspec% /k d:\utils\cmd.cmd" init_dir="d:\" run_as_user="0" user=""/>
 			<cursor style="0" r="255" g="255" b="255"/>
-			<background type="0" r="0" g="0" b="0">
+			<background type="2" r="0" g="0" b="0">
 				<image file="" relative="0" extend="0" position="0">
-					<tint opacity="0" r="0" g="0" b="0"/>
+					<tint opacity="255" r="0" g="0" b="0"/>
 				</image>
 			</background>
 		</tab>

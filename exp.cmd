@@ -1,0 +1,1 @@
+@explorer /e/root,%CD%
